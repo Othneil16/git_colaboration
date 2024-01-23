@@ -10,6 +10,8 @@ const classSchema = new mongoose.Schema({
     password:{
 
     },
-}{timestamps:true})
+},{timestamps:true})
 
 const classwork = mongoose.schema('class', classModel)
+
+module.exports = classwork
