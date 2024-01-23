@@ -1,4 +1,5 @@
 const express = require('express')
+require('dotenv')
 const port = process.env.port
 
 const app = express()
