@@ -1,0 +1,26 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 93, 98);
+  
+}
+
+.body{
+    width: 50%;
+    height: 40%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(190, 93, 109);
+}
